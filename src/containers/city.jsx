@@ -12,9 +12,9 @@ class City extends Component {
 
   render() {
     return (
-      <div className="list-group-item" onClick={this.handleClick}>
+      <li className="list-group-item" onClick={this.handleClick}>
         {this.props.city.name}
-      </div>
+      </li>
     );
   }
 }

@@ -19,9 +19,9 @@ class CityList extends Component {
   render() {
     console.log("rendered cities");
     return (
-      <div className="cities">
+      <ul className="cities">
         {this.props.cities.map(city => <City city={city} key={city.name} />)}
-      </div>
+      </ul>
     );
   }
 }
